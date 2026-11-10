@@ -14,8 +14,6 @@ jobs:
   # Runs the Maven test phase on the project
   maven_test:
 
-    needs: [maven_test]  # Enforces that maven_test runs first
-    
     runs-on: ubuntu-latest
 
     permissions:
